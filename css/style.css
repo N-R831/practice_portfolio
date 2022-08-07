@@ -214,3 +214,22 @@ footer {
     padding: 10px;
     font-size: small
 }
+
+@media (max-width: 600px) {
+    header {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 4%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    nav.menu {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
